@@ -1,13 +1,14 @@
-# Cloud Infrastructure Provisioner (BYOP)
+# Cloud Infrastructure Provisioner
 
 ## Project Overview
-This project is a Command Line Interface (CLI) tool designed to validate and plan Cloud Infrastructure deployments. It focuses on AWS-specific architecture patterns, including VPC configurations and resource validation, aligning with Cloud Strategy and Web Service Architecture concepts.
+A CLI tool designed to validate cloud-native infrastructure plans. Built to demonstrate proficiency in Cloud Strategy, VPC architecture, and automated validation.
 
-## Features
-- **Strategy Validation:** Validates migration strategies (Rehosting, Replatforming, etc.).
-- **Infrastructure Linting:** Ensures required components like VPCs and Subnets are present in the plan.
-- **Automated Logging:** Provides time-stamped status updates for all operations.
+## Setup Instructions
+1. Clone the repo: `git clone https://github.com/YOUR_USERNAME/REPO_NAME.git`
+2. Navigate to folder: `cd REPO_NAME`
+3. (Optional) Run `pip install -r requirements.txt`
 
-## Prerequisites
-- Python 3.8 or higher installed.
-
+## Execution
+Run the following command to validate the project:
+```bash
+python src/main.py templates/infrastructure.json
