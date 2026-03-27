@@ -1,0 +1,9 @@
+{
+    "project_name": "UpStart-Cloud-Migration",
+    "strategy": "Replatforming",
+    "region": "us-west-2",
+    "resources": [
+        {"type": "VPC", "cidr": "10.0.0.0/16"},
+        {"type": "Subnet", "zone": "us-west-2a", "public": true}
+    ]
+}
